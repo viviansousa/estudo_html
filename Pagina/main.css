@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: melvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dark {
+    background-color: #000;
+    color: #DAC1F3;
+}
+
+.light {
+    background-color: #DAC1F3;
+    color: #000;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header ul{
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+header li a {
+    color: #000;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#contatos li {
+    display: inline-block;
+}
+#contatos li a {
+    display: inline-block;
+    margin: 1em;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+}
+#contatos .insta {
+    background-image: url('./imagens/insta.png');
+}
+#contatos .linkedin {
+    background-image: url('./imagens/linkedin.png');
+}
+#contatos .github {
+    background-image: url('./imagens/github.png');
+}
+#contatos .email {
+    background-image: url('./imagens/e-mail.png');
+}
+
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
